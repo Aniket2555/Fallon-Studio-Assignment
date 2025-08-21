@@ -1,0 +1,9 @@
+scikit-learn
+numpy
+pandas
+matplotlib
+torch
+datasets
+transformers
+accelerate>=0.26.0
+nltk

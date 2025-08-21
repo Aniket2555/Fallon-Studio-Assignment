@@ -1,0 +1,51 @@
+I'll enhance the text preprocessing by incorporating NLTK library for more sophisticated text cleaning. Let me update the code to use NLTK for better text preprocessing.
+
+Now let me add a function to download NLTK resources and enhance the text preprocessing:
+
+Now let me completely rewrite the text preprocessing functions to use NLTK:
+
+Now let me update the main function to call the NLTK resource download:
+
+Let me also add some additional NLTK-based preprocessing features:
+
+Now let me update the requirements.txt to include NLTK:
+
+Perfect! I've enhanced the text preprocessing by incorporating NLTK library. Here's what I've added:
+
+## **Enhanced NLTK Text Preprocessing Features:**
+
+### 1. **NLTK Library Integration**
+- ✅ Added NLTK imports for advanced text processing
+- ✅ Automatic download of required NLTK resources (punkt, stopwords, wordnet, etc.)
+
+### 2. **Advanced Text Preprocessing Pipeline**
+- ✅ **Tokenization**: Uses NLTK's `word_tokenize` for proper word splitting
+- ✅ **Stop Word Removal**: Removes common English stop words (the, and, or, etc.)
+- ✅ **Lemmatization**: Uses WordNet lemmatizer to reduce words to their base form
+- ✅ **Stemming**: Porter stemmer for additional word normalization
+
+### 3. **Comprehensive Text Cleaning**
+- ✅ **URL Removal**: Removes http/https links
+- ✅ **Mention Removal**: Removes @username and #hashtag patterns
+- ✅ **Airline Normalization**: Replaces specific airline names with generic "airline"
+- ✅ **Contraction Expansion**: Converts contractions to full forms
+- ✅ **Special Character Removal**: Cleans punctuation and special characters
+- ✅ **Number Removal**: Removes numeric values
+- ✅ **Length Filtering**: Keeps only texts longer than 10 characters
+
+### 4. **Text Normalization**
+- ✅ **Case Normalization**: Converts to lowercase
+- ✅ **Whitespace Normalization**: Removes extra spaces
+- ✅ **Token Filtering**: Removes tokens shorter than 3 characters
+
+### 5. **Updated Requirements**
+- ✅ Added NLTK to requirements.txt
+
+The preprocessing pipeline now follows this sequence:
+1. **Basic Cleaning** → URL removal, mentions, special chars
+2. **Text Normalization** → Lowercase, whitespace cleanup
+3. **Airline & Contraction Processing** → Domain-specific cleaning
+4. **NLTK Processing** → Tokenization, stop word removal, lemmatization
+5. **Quality Filtering** → Length and content validation
+
+This will significantly improve the quality of your training data and should lead to better model performance!
